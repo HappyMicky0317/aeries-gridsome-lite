@@ -1,0 +1,68 @@
+[
+  {
+    "title": "General Courses FAQ",
+    "items": [
+      {
+        "title": "What is Aeries Academy?",
+        "description": "Aeries Academy is a self-paced online program that uses the Canvas LMS to deliver lesson content and assess user proficiency on a wide variety of Aeries Student Information System functions. Courses in the academy can be used as a training tool for new employees or employees that are changing job roles, or to gauge user skill level and identify gap areas where staff may need additional support or training."
+      },
+      {
+        "title": "What's in a course?",
+        "description": "Each course includes lessons, videos, practice activities that are completed in a training version of Aeries Web, as well as an Assessment."
+      },
+      {
+        "title": "How long does each course last?",
+        "description": "The Modules and Courses in the Academy are self-paced. It is estimated that it will take 1-8 hours to complete each Module, and the Courses range from 5-40 hours based on how many Modules each Course contains. Specific estimates for each course are listed in the Aeries Academy Course Catalog. You can begin your course enrollment at any time. Once you are enrolled, you will have 3-6 months to complete your course depending on which course you enrolled in and your start date."
+      },
+      {
+        "title": "When can I start my course?",
+        "description": "Upon enrollment, an invitation email is sent with more information on how to access the course. The email may take a few minutes or more to arrive."
+      },
+      {
+        "title": "How will the courses be graded?",
+        "description": "Each Course is graded based on the score earned on the assessment at the end. The following Mastery scale is used when determining the level of certification: 90-100% - Expert, 75-89% - Proficient, < 75% - Novice."
+      },
+      {
+        "title": "How can I practice what I learn in Aeries Academy?",
+        "description": "You will have access to an Aeries training database during your course that will allow you to practice many of the concepts that are covered in each course."
+      },
+      {
+        "title": "Can I retake the tests?",
+        "description": "The assessment can be repeated one time. The highest grade will be your final score. Certification participants are encouraged to take each Assessment initially upon beginning as a “pre-test”, then complete the lessons and activities and retake the Assessment upon completion."
+      },
+      {
+        "title": "How do I get started on Aeries Academy?",
+        "description": "For first time participants of Aeries Academy, use the <a href=\"https://www.aeries.com/academy/general\">course catalog</a> to find a course you want to start with (maybe try \"<a href=\"https://www.aeries.com/academy/course/fundamentals-of-aeries\">Fundamentals of Aeries</a>\") and click the \"Enroll Now\" button."
+      }
+    ]
+  },
+  {
+    "title": "Teacher Courses FAQ",
+    "items": [
+      {
+        "title": "What is Aeries Teacher Academy?",
+        "description": "Aeries Teacher Academy is a self-paced online program that uses the Canvas LMS to deliver lesson content covering a variety of Aeries Teacher Portal functions. Courses in the academy can be used as a training tool for new teachers, or a reference for teachers who want to increase their proficiency at utilizing Aeries Teacher Portal tools."
+      },
+      {
+        "title": "What is included in the Courses?",
+        "description": "Each Module in the Aeries Teacher Academy includes case-scenario based lesson content, videos, practice activities that are completed in a training version of the Aeries Teacher Portal."
+      },
+      {
+        "title": "Do I have to complete an exam?",
+        "description": "Exams are only required if you decide to earn the Aeries Teacher Academy certification for a course. Certification is awarded based on following Mastery scale: 90-100% - Expert75-89% - Proficient< 75% - Novice"
+      },
+      {
+        "title": "How long does each course last?",
+        "description": "The Courses in the Aeries Teacher Academy are self-paced. It is estimated that it will take 5-20 hours to complete a course depending on which course you enroll in."
+      },
+      {
+        "title": "When can I start my course?",
+        "description": "Upon enrollment, an invitation email is sent with more information on how to access the course. The email may take a few minutes or more to arrive."
+      },
+      {
+        "title": "How can I practice what I learn in Aeries Academy?",
+        "description": "You will have access to an Aeries training database during your course that will allow you to login as a fictitious teacher and practice the concepts that are covered in each lesson."
+      }
+    ]
+  }
+]

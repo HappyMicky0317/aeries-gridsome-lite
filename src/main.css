@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./tailwind/translate.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Vue SVG-ICON styles */
+.fill-none {
+  fill: none;
+}
+
+
+.blog-post-body figure.wp-block-image { @apply px-0 md:px-24 }
+.blog-post-body figure.wp-block-table { @apply px-8 md:px-24; }
+.blog-post-body table { @apply bg-neutral-400 table-fixed mb-8 border-collapse border border-neutral-700; }
+
+.blog-post-body table td,
+.blog-post-body table th { @apply px-2 py-1; }
+.blog-post-body table th { @apply border border-neutral-1500 bg-neutral-1700 text-neutral-100 text-left; }
+.blog-post-body table td { @apply border border-neutral-700; }

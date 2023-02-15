@@ -1,0 +1,154 @@
+query {
+  posts(first: 80) {
+    edges {
+      node {
+        title
+        slug
+        date
+        blocks {
+          ... on wpgql_CoreSpacerBlock {
+            attrs: attributes {
+              height
+            }
+            name
+          }
+          ... on wpgql_CoreEmbedBlock {
+            attrs: attributes {
+              ... on wpgql_CoreEmbedBlockAttributes {
+                align
+                caption
+                url
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreFreeformBlock {
+            dynamicContent
+            saveContent
+            name
+          }
+          ... on wpgql_CoreCalendarBlock {
+            attrs: attributes {
+              year
+              month
+              align
+            }
+            name
+          }
+          ... on wpgql_CoreQuoteBlock {
+            attrs: attributes {
+              ... on wpgql_CoreQuoteBlockAttributes {
+                align
+                anchor
+                citation
+                value
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreListBlock {
+            attrs: attributes {
+              ... on wpgql_CoreListBlockAttributes {
+                anchor
+                backgroundColor
+                values
+                reversed
+                ordered
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreHeadingBlock {
+            attrs: attributes {
+              ... on wpgql_CoreHeadingBlockAttributes {
+                align
+                anchor
+                content
+                level
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreImageBlock {
+            attrs: attributes {
+              ... on wpgql_CoreImageBlockAttributes {
+                id
+                alt
+                anchor
+                caption
+                href
+                url
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreParagraphBlock {
+            attrs: attributes {
+              ... on wpgql_CoreParagraphBlockAttributes {
+                align
+                anchor
+                content
+                dropCap
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreAudioBlock {
+            attrs: attributes {
+              ... on wpgql_CoreAudioBlockAttributes {
+                id
+                src
+                preload
+                loop
+                autoplay
+                anchor
+                align
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreCodeBlock {
+            attributes {
+              anchor
+              content
+            }
+            name
+          }
+          ... on wpgql_CoreSeparatorBlock {
+            attributes {
+              align
+              anchor
+              className
+              color
+              customColor
+              lock
+            }
+            name
+          }
+          ... on wpgql_CoreTableBlock {
+            attributes {
+              ... on wpgql_CoreTableBlockAttributes {
+                align
+                anchor
+                body {
+                  cells {
+                    content
+                    align
+                  }
+                }
+                head {
+                  cells {
+                    align
+                    scope
+                    content
+                  }
+                }
+              }
+            }
+            name
+          }
+        }
+      }
+    }
+  }
+}

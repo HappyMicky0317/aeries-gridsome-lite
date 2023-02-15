@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Aeries Basic Overview",
+    "description": " Everyone who uses the program needs overview (even look-only users). This session provides an introduction to the operation of Aeries, and is required for all users of Aeries. Topics include logon to Aeries, the Control Panel, function codes, the student data screen, changing data, drop down lists, print preview and printing reports, and the additional data screen buttons.",
+    "duration": "3.5 hours",
+    "id": "aeries-basic-overview"
+  },
+  {
+    "title": "System Administration",
+    "description": "This session is appropriate for selected users. (Possibly one or two primary users at each site and/or district staff responsible for these tasks. Consider how this responsibility is assigned in your district.). This session provides instruction in the maintenance and update of the Aeries software. Software updates, security, code tables, school options, and backups are some of the items included in this session.",
+    "duration": "3.5 hours",
+    "id": "system-administration"
+  },
+  {
+    "title": "Daily attendance",
+    "description": "This session provides detailed instruction on daily attendance procedures and reports. This includes posting attendance using scan sheets or rosters, attendance reports, and the monthly attendance summary.",
+    "duration": "3.5 hours",
+    "id": "daily-attendance"
+  },
+  {
+    "title": "Period attendance",
+    "description": "This session provides detailed instruction on period-by-period attendance procedures and reports. This includes posting attendance using scan sheets, attendance reports, and the monthly attendance summary.",
+    "duration": "3.5 hours",
+    "id": "period-attendance"
+  },
+  {
+    "title": "Elementary School Start-up",
+    "description": "This session provides instruction for accurate data entry, assigning students to teacher or classes, updating attendance, and entering data in other screens.",
+    "duration": "3.5 hours",
+    "id": "elementary-school-start-up"
+  },
+  {
+    "title": "Class Scheduling (Classes-Secondary)",
+    "description": "This session includes instruction for viewing student class schedules, changing class schedules, and scheduling new students into their classes. Also, the Teacher, Course, and Master Schedule screens will be discussed. Reports include printing locator cards, class rosters, teacher add/drop lists, etc.",
+    "duration": "3.5 hours",
+    "id": "class-scheduling-classes-secondary"
+  },
+  {
+    "title": "Grade Reporting",
+    "description": "This session provides instruction on collecting and printing report card grades including the options that are available for report card forms and reports. High school transcripts and graduation status reports are included.",
+    "duration": "3.5 hours",
+    "id": "grade-reporting"
+  },
+  {
+    "title": "Course History & Transcripts",
+    "description": "This session focuses on maintaining the District Course Master table, defining transcripts, and printing student transcripts.",
+    "duration": "3.5 hours",
+    "id": "course-history-transcripts"
+  },
+  {
+    "title": "QUERY",
+    "description": "This session provides instruction on how to obtain any combination and sequence of data for printed reports or other output from the Aeries database tables.",
+    "duration": "3.5 hours",
+    "id": "query"
+  },
+  {
+    "title": "Mass Scheduling mechanics (no theory)",
+    "description": "This session is for the scheduling of students into classes for next school year. Collecting and entering course requests, entering the master schedule, scheduling students, and printing reports are included.",
+    "duration": "Full day",
+    "id": "mass-scheduling-mechanics-no-theory"
+  },
+  {
+    "title": "Mass Scheduling (including Theory and Application)",
+    "description": "This session is for the scheduling of students into classes for next school year and does get into the mechanics, including theory and applications.",
+    "duration": "3.5 hours",
+    "id": "mass-scheduling-including-theory-and-application"
+  },
+  {
+    "title": "Aeries Teacher Portal Attendance and Grades",
+    "description": "This session is on posting attendance and report card grades in the Teacher Portal (Train-the-trainer recommended).",
+    "duration": "3.5 hours",
+    "id": "aeries-teacher-portal-attendance-and-grades"
+  },
+  {
+    "title": "Aeries Teacher Portal Gradebook",
+    "description": "This session is on creating and using gradebooks in the Teacher Portal (Train-the-trainer recommended).",
+    "duration": "3.5 hours",
+    "id": "aeries-teacher-portal-gradebook"
+  },
+  {
+    "title": "Discipline and Interventions",
+    "description": "This session is on how to track discipline in Aeries and how to create and maintain intervention programs.",
+    "duration": "2 to 3.5 hours",
+    "id": "discipline-and-interventions"
+  },
+  {
+    "title": "Medical and Immunizations",
+    "description": "This session is on maintaining medical information and immunizat.",
+    "duration": "2 to 3.5 hours",
+    "id": "medical-and-immunizations"
+  },
+  {
+    "title": "Supplemental Attendance",
+    "description": "This session is on creating and maintaining supplemental attendance programs and sessions.",
+    "duration": "3.5 hours",
+    "id": "supplemental-attendance"
+  },
+  {
+    "title": "Aeries Analytics Indicators and Dashboards",
+    "description": "This session is on creating and publishing indicators and dashboards.",
+    "duration": "Full day",
+    "id": "aeries-analytics-indicators-and-dashboards"
+  },
+  {
+    "title": "Aeries Analytics Test Creation and Scanning",
+    "description": "This session is for teachers and administrators on creating tests in aeries and scanning/scoring the results.",
+    "duration": "3.5 hours",
+    "id": "aeries-analytics-test-creation-and-scanning"
+  },
+  {
+    "title": "Question and answer follow-up sessions",
+    "description": " Open-ended Q+A sessions are good after the initial training and/or after having some experience using the system. Job specific sessions/groups may be useful.",
+    "duration": "3.5 hours",
+    "id": "question-and-answer-follow-up-sessions"
+  }
+]

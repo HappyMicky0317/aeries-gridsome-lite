@@ -1,0 +1,26 @@
+query GetCourseData {
+	# Get the course categories
+  courseCategories: allCrmCourseCategory {
+    edges {
+      node {
+        id
+        title
+      }
+    }
+  }
+  # Get the courses themselves
+  courses: allCrmCourse {
+    edges {
+      node {
+        title 
+        slug
+        id
+        acf {
+          courseDuration
+          courseCategory
+          courseDescription
+        }
+      }
+    }
+  }
+}

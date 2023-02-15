@@ -1,0 +1,44 @@
+query {
+  sessions(first: 250) {
+    edges {
+      node {
+        id
+        slug
+        title
+        date
+        blocks {
+          name
+          ... on wpgql_CoreHeadingBlock {
+            attributes {
+              ... on wpgql_CoreHeadingBlockAttributes {
+                content
+                level
+              }
+            }
+          }
+          ... on wpgql_CoreParagraphBlock {
+            attributes {
+              ... on wpgql_CoreParagraphBlockAttributes {
+                content
+              }
+            }
+          }
+        }
+        sessionCategories {
+          edges {
+            node {
+              name
+            }
+          }
+        }
+        tags {
+          edges {
+            node {
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}

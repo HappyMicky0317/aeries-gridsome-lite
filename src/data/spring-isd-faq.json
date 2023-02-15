@@ -1,0 +1,23 @@
+[
+  {
+    "title": "",
+    "items": [
+      {
+        "title": "Student information system",
+        "description": "Log into Aeries by going to the Aeries Parent Portal for your School District or use the mobile app. You will see the login page and be able to enter your email and password, or use your google account to login."
+      },
+      {
+        "title": "Background of the search for a new solution",
+        "description": "Typically your account information is provided by the school or district. If you don't remember your username or password, try the forgot password option."
+      },
+      {
+        "title": "A new direction for Spring ISD",
+        "description": "On the login page, there is a password reset link. This will walk you through the process. If that link is not present, your school or district will be able to assist."
+      },
+      {
+        "title": "Solutions & in-house experience",
+        "description": "Please check your email for \"Aeries\" to see if anything has changed. If you cannot remember your password, at the login screen select forgot password. If you have trouble still, contact your district."
+      }
+    ]
+  }
+]

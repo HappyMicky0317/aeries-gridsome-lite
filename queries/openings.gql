@@ -1,0 +1,48 @@
+query {
+  openings(first: 50) {
+    edges {
+      node {
+        title
+        slug
+        date
+        blocks {
+          ... on wpgql_CoreHeadingBlock {
+            attrs: attributes {
+              ... on wpgql_CoreHeadingBlockAttributes {
+                align
+                anchor
+                content
+                level
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreImageBlock {
+            attrs: attributes {
+              ... on wpgql_CoreImageBlockAttributes {
+                id
+                alt
+                anchor
+                caption
+                href
+                url
+              }
+            }
+            name
+          }
+          ... on wpgql_CoreParagraphBlock {
+            attrs: attributes {
+              ... on wpgql_CoreParagraphBlockAttributes {
+                align
+                anchor
+                content
+                dropCap
+              }
+            }
+            name
+          }
+        }
+      }
+    }
+  }
+}
